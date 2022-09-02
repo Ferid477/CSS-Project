@@ -13,3 +13,18 @@
 .justify-content-end{
     justify-content: flex-end;
 }
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.btn{
+ border-radius: 20px;
+ padding: 10px 20px;
+ border: 2px solid white;
+ background: transparent;
+ color:#0d6efd;
+ text-decoration: none;
+ text-transform: capitalize;
+ font-family: inherit;
+}
