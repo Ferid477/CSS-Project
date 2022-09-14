@@ -1,6 +1,7 @@
 /* Home section slyles */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 #home{
     width: 100vw;
@@ -27,6 +28,7 @@ body{
 .home-navbar{
     padding: 40px 0px;
     border-bottom: 1px solid lightblue;
+    background: white;
     position: relative;
     z-index: 2;
 }
@@ -109,5 +111,26 @@ body{
 .home-slider-pagination a{
     color: white;
     font-size: 1em;
+    margin: 0px 5px;
+}
+
+.home-top{
+    background: #052f48 !important;
+    color: white;
+}
+.home-top-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-top-icons i{
+    background: #4f86f9;
+    padding: 15px;
+    margin: 0px 5px;
+}
+
+.home-top-phone i, .home-top-adress i{
+    color: #4f86f9;
     margin: 0px 5px;
 }
